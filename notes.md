@@ -11,6 +11,7 @@ Class notes - Go Barber web
   ```
 
 - Create the following folders:
+
   - `src/pages`
   - `src/routes`: contains the routes configurations, create the file `index.js`;
   - `src/services`:
@@ -18,3 +19,13 @@ Class notes - Go Barber web
     ```sh
      yarn add history
     ```
+
+---
+
+2 - Configure Reactotron:
+
+- Install Reactotron plugin:
+  ```sh
+  yarn add reactotron-react-js
+  ```
+- Create the file `src/config/ReactotronConfig.js`.
