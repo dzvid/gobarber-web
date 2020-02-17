@@ -57,3 +57,77 @@ Class notes - Go Barber web
 ---
 
 5. Global style:
+
+---
+
+6. Using Root Import
+
+- To use root import is necessary to customize the create react project (override
+  some properties), for this it is necessary to install 02 libs:
+
+  ```sh
+  yarn add --dev customize-cra react-app-rewired
+  ```
+
+- At the root of the project, create the file `config-overrides.js` (it is nodejs
+  code, not a react component).
+
+- To override the babel root import plugin it is necessary to install the it:
+
+  ```sh
+  yarn add --dev babel-plugin-root-import
+  ```
+
+  Add the following configuration to the file `config-overrides.js`:
+
+  ```js
+  const { addBabelPlugin, override } = require('customize-cra');
+
+  module.exports = override(
+    addBabelPlugin([
+      'babel-plugin-root-import',
+      {
+        rootPathSuffix: 'src',
+      },
+    ])
+  );
+  ```
+
+- Now you can import using `~` (til), it will represent the root of the project `src`;
+- It is also necessary to replace the scripts (start, build and test) values of `react-scripts` to `react-app-rewired`.
+
+- It is also necessary to configure eslint:
+
+  - Install the lib:
+
+    ```sh
+    yarn add --dev eslint-import-resolver-babel-plugin-root-import
+    ```
+
+  - Add the following lines to `.eslintrc.js`:
+
+  ```js
+    settings: {
+      'import/resolver': {
+        'babel-plugin-root-import': {
+          rootPathSuffix: 'src',
+        },
+      },
+    },
+  ```
+
+  - And the last setting to allow to open a file when clicking in the import statement:
+
+    - At the root of the project, create the file `jsconfig.json` with the
+      following content:
+
+      ```js
+      {
+        "compilerOptions": {
+        "baseUrl": "src",
+          "paths": {
+            "~/*": ["*"]
+          }
+        }
+      }
+      ```
