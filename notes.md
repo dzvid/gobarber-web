@@ -53,3 +53,7 @@ Class notes - Go Barber web
 - Apply the layout in the `src/routes/Route.js` file;
 - Now set a layout depending if the user is logged in or not:
   `const Layout = signed ? DefaultLayout : AuthLayout;`
+
+---
+
+5. Global style:
