@@ -150,3 +150,10 @@
   ```sh
   yarn add @rocketseat/unform
   ```
+
+3. Form input validation:
+
+- Install yup lib:
+  ```
+  yarn add yup
+  ```
