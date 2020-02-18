@@ -187,4 +187,15 @@
 
 6. Store user profile information/data:
 
--
+---
+
+7. Persist auth token and user profile information:
+
+- In this lesson we will persist the informations in the browser local storage.
+- Install the `redux-persist` lib:
+
+  ```sh
+  yarn add redux-persist
+  ```
+
+- Create a file `~/store/persistReducers.js` to contain the redux-persist setup.
