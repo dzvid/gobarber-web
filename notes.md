@@ -144,6 +144,8 @@
   yarn add polished
   ```
 
+---
+
 2. Unform lib:
 
 - Install the lib:
@@ -151,9 +153,23 @@
   yarn add @rocketseat/unform
   ```
 
+---
+
 3. Form input validation:
 
 - Install yup lib:
   ```
   yarn add yup
   ```
+
+---
+
+4. Redux and Redux Saga configuration:
+
+- Install libs:
+
+  ```
+  yarn add redux redux-saga react-redux reactotron-redux reactotron-redux-saga immer
+  ```
+
+- Create the store foler, reducers, etc
