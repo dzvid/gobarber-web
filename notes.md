@@ -182,3 +182,9 @@
   ```sh
   yarn add axios
   ```
+
+---
+
+6. Store user profile information/data:
+
+-
