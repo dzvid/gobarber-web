@@ -1,6 +1,6 @@
-Class notes - Go Barber web
+# Class notes - Go Barber web
 
----
+## Initial concepts and development environment settings
 
 1. Configure app navigation (routes):
 
@@ -131,3 +131,15 @@ Class notes - Go Barber web
         }
       }
       ```
+
+---
+
+## User: authentication and register.
+
+1.  Style signin and register pages (authentication page):
+    The styles.js of those pages will be located at the `src/pages/_layouts/auth` bcoz the pages look alike.
+
+- Install the lib polished:
+  ```sh
+  yarn add polished
+  ```
