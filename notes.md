@@ -173,3 +173,12 @@
   ```
 
 - Create the store foler, reducers, etc
+
+---
+
+5. Authentication feature:
+
+- Install axios to make requests:
+  ```sh
+  yarn add axios
+  ```
