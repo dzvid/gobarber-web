@@ -1,6 +1,6 @@
-Class notes - Go Barber web
+# Class notes - Go Barber web
 
----
+## Initial concepts and development environment settings
 
 1. Configure app navigation (routes):
 
@@ -131,3 +131,98 @@ Class notes - Go Barber web
         }
       }
       ```
+
+---
+
+## User: authentication and register.
+
+1.  Style signin and register pages (authentication page):
+    The styles.js of those pages will be located at the `src/pages/_layouts/auth` bcoz the pages look alike.
+
+- Install the lib polished:
+  ```sh
+  yarn add polished
+  ```
+
+---
+
+2. Unform lib:
+
+- Install the lib:
+  ```sh
+  yarn add @rocketseat/unform
+  ```
+
+---
+
+3. Form input validation:
+
+- Install yup lib:
+  ```
+  yarn add yup
+  ```
+
+---
+
+4. Redux and Redux Saga configuration:
+
+- Install libs:
+
+  ```
+  yarn add redux redux-saga react-redux reactotron-redux reactotron-redux-saga immer
+  ```
+
+- Create the store foler, reducers, etc
+
+---
+
+5. Authentication feature:
+
+- Install axios to make requests:
+  ```sh
+  yarn add axios
+  ```
+
+---
+
+6. Store user profile information/data:
+
+---
+
+7. Persist auth token and user profile information:
+
+- In this lesson we will persist the informations in the browser local storage.
+- Install the `redux-persist` lib:
+
+  ```sh
+  yarn add redux-persist
+  ```
+
+- Create a file `~/store/persistReducers.js` to contain the redux-persist setup.
+
+---
+
+8. Add loading animation during authentication process
+
+---
+
+9. Toast notifications:
+
+- Add toastify library:
+
+```sh
+yarn add react-toastify
+```
+
+- Import the toastify styles in the global styles.
+- Import the toast base component in App.js, and now you can use it wherever you want :)
+
+---
+
+10. Create user account feature:
+
+---
+
+11. Client authenticated requests:
+
+- Resume: After the client is logged in the app, every request to the API should contain the JWT token in the authorization header.
