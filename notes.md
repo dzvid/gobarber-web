@@ -216,3 +216,13 @@ yarn add react-toastify
 
 - Import the toastify styles in the global styles.
 - Import the toast base component in App.js, and now you can use it wherever you want :)
+
+---
+
+10. Create user account feature:
+
+---
+
+11. Client authenticated requests:
+
+- Resume: After the client is logged in the app, every request to the API should contain the JWT token in the authorization header.
