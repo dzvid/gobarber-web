@@ -226,3 +226,13 @@ yarn add react-toastify
 11. Client authenticated requests:
 
 - Resume: After the client is logged in the app, every request to the API should contain the JWT token in the authorization header.
+
+---
+
+## Header and Notifications
+
+1. Create header component.
+
+---
+
+2.
