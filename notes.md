@@ -231,8 +231,17 @@ yarn add react-toastify
 
 ## Header and Notifications
 
-1. Create header component.
+1. Header component.
 
 ---
 
-2.
+2. Notifications component.
+
+- Install react-icons lib:
+  ```sh
+  yarn add react-icons
+  ```
+- Install a scroll bar lib (and import its css in the global style):
+  ```sh
+  yarn add react-perfect-scrollbar
+  ```
