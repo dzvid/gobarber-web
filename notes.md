@@ -202,6 +202,17 @@
 
 ---
 
-8. Add loading animation during authentication process:
+8. Add loading animation during authentication process
 
--
+---
+
+9. Toast notifications:
+
+- Add toastify library:
+
+```sh
+yarn add react-toastify
+```
+
+- Import the toastify styles in the global styles.
+- Import the toast base component in App.js, and now you can use it wherever you want :)
