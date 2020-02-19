@@ -199,3 +199,9 @@
   ```
 
 - Create a file `~/store/persistReducers.js` to contain the redux-persist setup.
+
+---
+
+8. Add loading animation during authentication process:
+
+-

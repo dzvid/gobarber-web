@@ -10,7 +10,6 @@ export default function user(state = INITIAL_STATE, action) {
       return produce(state, draft => {
         draft.profile = action.payload.user;
       });
-
     default:
       return state;
   }
