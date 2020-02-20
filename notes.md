@@ -226,3 +226,31 @@ yarn add react-toastify
 11. Client authenticated requests:
 
 - Resume: After the client is logged in the app, every request to the API should contain the JWT token in the authorization header.
+
+---
+
+## Header and Notifications
+
+1. Header component.
+
+---
+
+2. Notifications component.
+
+- Install react-icons lib:
+  ```sh
+  yarn add react-icons
+  ```
+- Install a scroll bar lib (and import its css in the global style):
+  ```sh
+  yarn add react-perfect-scrollbar
+  ```
+
+---
+
+3. Notifications.
+
+- Install date-fns lib to work with date informations:
+  ```sh
+  yarn add date-fns@next
+  ```
