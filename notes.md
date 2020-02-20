@@ -245,3 +245,12 @@ yarn add react-toastify
   ```sh
   yarn add react-perfect-scrollbar
   ```
+
+---
+
+3. Notifications.
+
+- Install date-fns lib to work with date informations:
+  ```sh
+  yarn add date-fns@next
+  ```
