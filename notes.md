@@ -268,3 +268,9 @@ yarn add react-toastify
 ---
 
 3. Add feature to update profile avatar image:
+
+
+---
+
+4. Show user information in header
+
