@@ -254,3 +254,27 @@ yarn add react-toastify
   ```sh
   yarn add date-fns@next
   ```
+
+---
+
+## Profile
+
+1. Style profile page
+
+---
+
+2. Add feature to update profile
+
+---
+
+3. Add feature to update profile avatar image:
+
+
+---
+
+4. Show user information in header
+
+---
+
+5. Logout
+
