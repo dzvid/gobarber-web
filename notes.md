@@ -274,3 +274,7 @@ yarn add react-toastify
 
 4. Show user information in header
 
+---
+
+5. Logout
+
