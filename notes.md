@@ -285,4 +285,17 @@ yarn add react-toastify
 
 ---
 
-2. Navigating between dates.
+2. Navigate between dates.
+
+---
+
+3. List appointments from API
+
+- Install date-fns-tz to handle timezone convertions.
+  The appointment date saved at the database is stored in UTC,
+  here we will convert the client current time to UTC,
+  get the appointment UTC date stored in the database,
+  manipulate both dates in UTC, then convert the result to the client local timezone:
+  ```sh
+  yarn add date-fns-tz
+  ```
