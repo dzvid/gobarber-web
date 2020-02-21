@@ -269,7 +269,6 @@ yarn add react-toastify
 
 3. Add feature to update profile avatar image:
 
-
 ---
 
 4. Show user information in header
@@ -278,3 +277,25 @@ yarn add react-toastify
 
 5. Logout
 
+---
+
+## Dashboard
+
+1. Style dashboard
+
+---
+
+2. Navigate between dates.
+
+---
+
+3. List appointments from API
+
+- Install date-fns-tz to handle timezone convertions.
+  The appointment date saved at the database is stored in UTC,
+  here we will convert the client current time to UTC,
+  get the appointment UTC date stored in the database,
+  manipulate both dates in UTC, then convert the result to the client local timezone:
+  ```sh
+  yarn add date-fns-tz
+  ```
