@@ -263,6 +263,8 @@ yarn add react-toastify
 
 ---
 
-2. Add feature to update profile avatar image:
+2. Add feature to update profile
 
--
+---
+
+3. Add feature to update profile avatar image:
