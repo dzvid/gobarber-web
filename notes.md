@@ -269,7 +269,6 @@ yarn add react-toastify
 
 3. Add feature to update profile avatar image:
 
-
 ---
 
 4. Show user information in header
@@ -278,3 +277,10 @@ yarn add react-toastify
 
 5. Logout
 
+---
+
+## Dashboard
+
+1. Style dashboard
+
+---
