@@ -284,3 +284,5 @@ yarn add react-toastify
 1. Style dashboard
 
 ---
+
+2. Navigating between dates.
