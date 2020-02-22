@@ -31,7 +31,7 @@
   <h3 align="center">GoBarber</h3>
 
   <p align="center">
-    GoBarber - Barber module.
+    Frontend module
     <br />
     <a href="https://github.com/tukno/gobarber-web"><strong>Explore the docs »</strong></a>
     <br />
@@ -98,7 +98,7 @@
 </div>
 
 This application was built during Rocketseat's bootcamp to learn the usage of React Redux + Sagas + Hooks and it is also the frontend module of the [backend service built in past modules](https://github.com/tukno/gobarber-api).
-The application allows a barber to:
+The frontend application allows a barber to:
 
 - Create an account in the service;
 - Check daily clients appointments: A dashboard shows the booked clients highlighted in yellow;
