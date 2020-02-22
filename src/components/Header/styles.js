@@ -68,6 +68,7 @@ export const Profile = styled.div`
     strong {
       display: block;
       color: #333;
+      white-space: nowrap;
     }
 
     a {
@@ -75,6 +76,7 @@ export const Profile = styled.div`
       margin-top: 2px;
       font-size: 12px;
       color: #666;
+      white-space: nowrap;
     }
   }
 
