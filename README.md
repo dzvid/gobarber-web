@@ -185,10 +185,11 @@ or
 
    npm install
    ```
+3. Create the `.env` file, use the `.env.example` as template, it has a `REACT_APP_BASE_URL` variable that receives the API address for the production build.
 
-3. Make sure the backend service is running.
+4. Make sure the [backend service](https://github.com/tukno/gobarber-api) is running.
 
-4. Open a terminal window and start the development server:
+5. Open a terminal window and start the development server:
 
    ```sh
    yarn start
@@ -196,7 +197,7 @@ or
 
    You can now view GoBarber web module in the browser at: `http://localhost:3000/`
 
-5. You are done with configuration and ready to code! (I hope so :tada:).
+6. You are done with configuration and ready to code! (I hope so :tada:).
 
 <!-- USAGE EXAMPLES -->
 

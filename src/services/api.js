@@ -4,7 +4,7 @@ const api = axios.create({
   baseURL:
     process.env.NODE_ENV === 'development'
       ? 'http://localhost:3333'
-      : 'https://tukno-gobarber-api.herokuapp.com',
+      : process.env.REACT_APP_BASE_URL,
 });
 
 export default api;
