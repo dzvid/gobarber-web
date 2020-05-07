@@ -24,7 +24,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/tukno/gobarber-web">
+  <a href="https://github.com/dzvid/gobarber-web">
     <img src="src/assets/images/logo-purple.svg" alt="Logo" width="200" height="50">
   </a>
 
@@ -33,14 +33,14 @@
   <p align="center">
     Frontend module
     <br />
-    <a href="https://github.com/tukno/gobarber-web"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/dzvid/gobarber-web"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://gobarber.netlify.com/">View Demo</a>
     ·
-    <a href="https://github.com/tukno/gobarber-web/issues">Report Bug</a>
+    <a href="https://github.com/dzvid/gobarber-web/issues">Report Bug</a>
     ·
-    <a href="https://github.com/tukno/gobarber-web/issues">Request Feature</a>
+    <a href="https://github.com/dzvid/gobarber-web/issues">Request Feature</a>
   </p>
 </p>
 
@@ -97,7 +97,7 @@
 
 </div>
 
-This application was built during Rocketseat's bootcamp to learn the usage of React Redux + Sagas + Hooks and it is also the frontend module of the [backend service built in past modules](https://github.com/tukno/gobarber-api).
+This application was built during Rocketseat's bootcamp to learn the usage of React Redux + Sagas + Hooks and it is also the frontend module of the [backend service built in past modules](https://github.com/dzvid/gobarber-api).
 The frontend application allows a barber to:
 
 - Create an account in the service;
@@ -156,7 +156,7 @@ or
   npm install npm@latest -g
   ```
 
-- Setup and execute GoBarber backend, [disponible here](https://github.com/tukno/gobarber-api).
+- Setup and execute GoBarber backend, [disponible here](https://github.com/dzvid/gobarber-api).
 
 ### Installation
 
@@ -164,10 +164,10 @@ or
 
    ```sh
    Using ssh:
-   git clone git@github.com:tukno/gobarber-web.git
+   git clone git@github.com:dzvid/gobarber-web.git
 
    Or using https:
-   git clone https://github.com/tukno/gobarber-web.git
+   git clone https://github.com/dzvid/gobarber-web.git
    ```
 
 2. Install the project dependencies:
@@ -187,7 +187,7 @@ or
    ```
 3. Create the `.env` file, use the `.env.example` as template, it has a `REACT_APP_BASE_URL` variable that receives the API address for the production build.
 
-4. Make sure the [backend service](https://github.com/tukno/gobarber-api) is running.
+4. Make sure the [backend service](https://github.com/dzvid/gobarber-api) is running.
 
 5. Open a terminal window and start the development server:
 
@@ -211,7 +211,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_ --
 
 <!-- ## Roadmap
 
-See the [open issues](https://github.com/tukno/gobarber-web/issues) for a list of proposed features (and known issues). -->
+See the [open issues](https://github.com/dzvid/gobarber-web/issues) for a list of proposed features (and known issues). -->
 
 <!-- CONTRIBUTING -->
 
@@ -237,7 +237,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 David Oliveira - oliveiradavid.dev@gmail.com
 
-Project Link: [https://github.com/tukno/gobarber-web](https://github.com/tukno/gobarber-web)
+Project Link: [https://github.com/dzvid/gobarber-web](https://github.com/dzvid/gobarber-web)
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -250,18 +250,18 @@ Project Link: [https://github.com/tukno/gobarber-web](https://github.com/tukno/g
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/tukno/gobarber-web.svg?style=flat-square
-[contributors-url]: https://github.com/tukno/gobarber-web/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/tukno/gobarber-web.svg?style=flat-square
-[forks-url]: https://github.com/tukno/gobarber-web/network/members
-[stars-shield]: https://img.shields.io/github/stars/tukno/gobarber-web.svg?style=flat-square
-[stars-url]: https://github.com/tukno/gobarber-web/stargazers
-[issues-shield]: https://img.shields.io/github/issues/tukno/gobarber-web.svg?style=flat-square
-[issues-url]: https://github.com/tukno/gobarber-web/issues
-[license-shield]: https://img.shields.io/github/license/tukno/gobarber-web.svg?style=flat-square
-[license-url]: https://github.com/tukno/gobarber-web/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/dzvid/gobarber-web.svg?style=flat-square
+[contributors-url]: https://github.com/dzvid/gobarber-web/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dzvid/gobarber-web.svg?style=flat-square
+[forks-url]: https://github.com/dzvid/gobarber-web/network/members
+[stars-shield]: https://img.shields.io/github/stars/dzvid/gobarber-web.svg?style=flat-square
+[stars-url]: https://github.com/dzvid/gobarber-web/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dzvid/gobarber-web.svg?style=flat-square
+[issues-url]: https://github.com/dzvid/gobarber-web/issues
+[license-shield]: https://img.shields.io/github/license/dzvid/gobarber-web.svg?style=flat-square
+[license-url]: https://github.com/dzvid/gobarber-web/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/tukno
+[linkedin-url]: https://linkedin.com/in/dzvid
 [product-screenshot-signin]: src/assets/screenshots/signIn.png
 [product-screenshot-signup]: src/assets/screenshots/signUp.png
 [product-screenshot-dashboard]: src/assets/screenshots/dashboard.png
